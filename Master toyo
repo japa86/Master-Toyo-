@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Toyo - Excelência em Pigmentos e Expansores</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('https://example.com/sua-imagem-de-fundo.jpg') center/cover no-repeat;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Master Toyo</h1>
+        <p>Inovação e Qualidade em Pigmentos, Masterbatches e Expansores</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Colorindo o Futuro com Tecnologia e Respeito</h2>
+        <p>Transformando materiais em soluções premium para a indústria de calçados e plásticos.</p>
+        <button onclick="window.location.href='#contato'">Fale Conosco</button>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre a Master Toyo</h2>
+        <p>Somos uma empresa fundada com o propósito de revolucionar o mercado de pigmentos e expansores, atuando com integridade, inovação e excelência industrial. Com raízes na tradição japonesa e visão global, a Master Toyo se destaca pela produção de pigmentos moídos de alta performance, especialmente para a indústria de injeção e calçados.</p>
+        <p>Nossa operação é estratégica: utilizamos sucata de PVC como base para formulações sustentáveis, sempre buscando processos otimizados e respeito socioambiental.</p>
+    </section>
+
+    <section id="produtos" class="section">
+        <h2>Nossos Produtos</h2>
+        <ul>
+            <li><strong>Pigmentos Masterbatch Preto:</strong> Alta intensidade, dispersão superior, ideal para injeção.</li>
+            <li><strong>Expansores para Solados:</strong> Eficiência na leveza e resistência de calçados.</li>
+            <li><strong>Moagem de PVC e Base TR:</strong> Soluções sustentáveis para formulações inovadoras.</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco e descubra como podemos colaborar para elevar a qualidade dos seus produtos.</p>
+        <p><strong>Email:</strong> contato@mastertoyo.com.br</p>
+        <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+        <button onclick="window.location.href='mailto:contato@mastertoyo.com.br'">Enviar Email</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Master Toyo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
