@@ -32,7 +32,7 @@
             background-color: #555;
         }
         .hero {
-            background: url('https://example.com/sua-imagem-de-fundo.jpg') center/cover no-repeat;
+            background: url('https://example.com/sua-imagem-de-fundo.jpg') center / cover no-repeat;
             color: white;
             padding: 100px 20px;
             text-align: center;
